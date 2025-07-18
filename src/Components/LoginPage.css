@@ -1,0 +1,217 @@
+.login-container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+.login-left {
+  width: 50%;
+  position: relative;
+  background-color: #fff;
+}
+
+.left-bg-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.back-button {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.login-left-box {
+  position: absolute;
+  top: 250px;
+  left: 120px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #222;
+  z-index: 2;
+  line-height: 1.4;
+}
+
+.login-right {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.login-form input[type="text"], .login-form input[type="password"] 
+{
+  padding: 14px 12px;
+  border: 1px solid #bfbfbf;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.privacy-note {
+  font-size: 11.5px;
+  color: #999898;
+  margin: -10px 0 4px;
+  line-height: 1.4;
+}
+
+.privacy-link {
+  background: none;
+  border: none;
+  color: #939398;
+  font-size: 11.5px;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.password-field {
+  position: relative;
+}
+
+.password-field input {
+  width: 100%;
+  padding-right: 40px;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 40%;
+  right: 12px;
+  width: 22px;
+  height: 16px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.eye-icon:hover {
+  opacity: 1;
+}
+
+
+.forgot-password {
+  font-size: 14px;
+  color: #6e6e6e;
+  text-decoration: underline;
+  margin-right: 30px;
+  margin-bottom: 35px;
+  font-weight: bold;
+}
+
+.remember-block {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 24px;
+  font-size: 13px;
+  color: #222;
+}
+
+.remember-block input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+}
+
+.info-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.submit-btn {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 14px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #333;
+}
+
+.create-account {
+  margin-top: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #222;
+}
+
+.create-btn {
+  margin-top: 12px;
+  padding: 14px;
+  border-radius: 50px;
+  border: 2px solid black;
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.create-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.main-input {
+  width: 428px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+  padding: 0 12px;
+  font-size: 14px;
+  opacity: 1;
+  box-sizing: border-box;
+}
+
+.password-input {
+  width: 428px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+  padding: 0 40px 0 12px;
+  font-size: 14px;
+  opacity: 1;
+  box-sizing: border-box;
+}
+
+.btn-checkbox {
+  width: 200px;
+  height: 100px;
+  border: 1px solid #bfbfbf;
+  cursor: pointer;
+  accent-color: black;
+}
